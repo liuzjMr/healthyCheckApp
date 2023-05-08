@@ -1,0 +1,100 @@
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+
+/* 这里是阿里巴巴图标库的引入 */
+@font-face {
+	font-family: 'iconfont';
+	/* Project id 3975978 */
+	src: url('//at.alicdn.com/t/c/font_3975978_nr98ps6or08.woff2?t=1679813417366') format('woff2'),
+		url('//at.alicdn.com/t/c/font_3975978_nr98ps6or08.woff?t=1679813417366') format('woff'),
+		url('//at.alicdn.com/t/c/font_3975978_nr98ps6or08.ttf?t=1679813417366') format('truetype');
+}
+
+
+/* 这里是官方字体设置 */
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-NIPTshaicha:before {
+	content: "\e610";
+}
+
+.icon-binglifuyin:before {
+	content: "\e611";
+}
+
+.icon-chushengbaogao:before {
+	content: "\e612";
+}
+
+.icon-yuyueguahao:before {
+	content: "\e613";
+}
+
+.icon-chanshaixinshaibaogao:before {
+	content: "\e614";
+}
+
+.icon-baogaochaxun:before {
+	content: "\e615";
+}
+
+.icon-jujiahuli:before {
+	content: "\e616";
+}
+
+.icon-guojiyiliao:before {
+	content: "\e617";
+}
+
+.icon-anermama:before {
+	content: "\e618";
+}
+
+.icon-tijianbaogao:before {
+	content: "\e619";
+}
+
+.icon-quyudaozhen:before {
+	content: "\e61a";
+}
+
+.icon-dianzipiaoju:before {
+	content: "\e61b";
+}
+
+.icon-jiamuchaxun:before {
+	content: "\e61c";
+}
+
+.icon-yuyuequxiao:before {
+	content: "\e61d";
+}
+
+.icon-feiyongchaxun:before {
+	content: "\e61e";
+}
+
+.icon-yuanneidingcan:before {
+	content: "\e61f";
+}
+
+.icon-zhongxiaoxueshenggumidu:before {
+	content: "\e620";
+}
+
+.icon-chanshaixinshaibaogao1:before {
+	content: "\e621";
+}
+
+.icon-mianfeibiyun:before {
+	content: "\e622";
+}
+
+.icon-tijianzhongxin:before {
+	content: "\e623";
+}

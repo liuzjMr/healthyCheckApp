@@ -1,0 +1,247 @@
+{
+	//配置easycom组件模式
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	// 主包
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	//分包页面
+	"subPackages": [{
+		"root": "subpkg",
+		"pages": [{
+				"path": "package_selection/package_selection",
+				"style": {
+					"navigationBarTitleText": "套餐选择",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "appointment_detail/appointment_detail",
+				"style": {
+					"navigationBarTitleText": "预约详情",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "report_query/report_query",
+				"style": {
+					"navigationBarTitleText": "报告查询",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "attention/attention",
+				"style": {
+					"navigationBarTitleText": "注意事项",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "order_info/order_info",
+				"style": {
+					"navigationBarTitleText": "编辑信息",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "choose_type/choose_type",
+				"style": {
+					"navigationBarTitleText": "预约类型",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "group_appointment/group_appointment",
+				"style": {
+					"navigationBarTitleText": "单位信息",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "my_appointment/my_appointment",
+				"style": {
+					"navigationBarTitleText": "我的预约",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "add_person/add_person",
+				"style": {
+					"navigationBarTitleText": "人员添加",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "addPersonList/addPersonList",
+				"style": {
+					"navigationBarTitleText": "人员信息",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "signature/signature",
+				"style": {
+					"navigationBarTitleText": "签名",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "health_assessment/health_assessment",
+				"style": {
+					"navigationBarTitleText": "健康评估",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "black",
+					"navigationBarBackgroundColor": "#e0dfdb"
+				}
+			},
+			{
+				"path": "health_intervention/health_intervention",
+				"style": {
+					"navigationBarTitleText": "健康干预",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "order_details/PersonOrder/PersonOrder",
+				"style": {
+					"navigationBarTitleText": "订单详情",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "order_details/GroupOrder/GroupOrder",
+				"style": {
+					"navigationBarTitleText": "单位预约详情",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "package_detail/package_detail",
+				"style": {
+					"navigationBarTitleText": "套餐详情",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "PE_appointment/PE_appointment",
+				"style": {
+					"navigationBarTitleText": "体检预约",
+					"navigationBarTextStyle": "black",
+					"navigationBarBackgroundColor": "#e2eefc"
+				}
+			},
+			{
+				"path": "search/search",
+				"style": {
+					"navigationBarTitleText": "搜索",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "health_record/health_record",
+				"style": {
+					"navigationBarTitleText": "健康档案",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "health_consultation/health_consultation",
+				"style": {
+					"navigationBarTitleText": "健康咨询",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "text1/text1",
+				"style": {
+					"navigationBarTitleText": "测试1",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "text2/text2",
+				"style": {
+					"navigationBarTitleText": "测试2",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "before_PE/before_PE",
+				"style": {
+					"navigationBarTitleText": "检前评测",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "choose_item/choose_item",
+				"style": {
+					"navigationBarTitleText": "多选体检套餐",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "my_login/my_login",
+				"style": {
+					"navigationBarTitleText": "登录",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "edit_myInfo/edit_myInfo",
+				"style": {
+					"navigationBarTitleText": "编辑个人信息",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "city_list/city_list",
+				"style": {
+					"navigationBarTitleText": "城市选择",
+					"enablePullDownRefresh": false
+				}
+
+			}
+		]
+	}],
+	"globalStyle": {
+		//原生导航栏的处理
+		// "navigationStyle": "custom",
+		//导航栏样式修改
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "体检预约小程序",
+		"navigationBarBackgroundColor": "#2153f9",
+		//全局组件的注册
+		"usingComponents": {}
+	},
+	//底部导航栏
+	// "tabBar": {
+	// 	"selectedColor": "#74b9ff",
+	// 	"list": [{
+	// 			"pagePath": "pages/home/home",
+	// 			"text": "首页",
+	// 			"iconPath": "static/icons/jiuzhen-copy.png",
+	// 			"selectedIconPath": "static/icons/jiuzhen.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/my/my",
+	// 			"text": "我的",
+	// 			"iconPath": "static/icons/tuanti-copy.png",
+	// 			"selectedIconPath": "static/icons/tuanti.png"
+	// 		}
+	// 	]
+	// },
+	"uniIdRouter": {}
+}

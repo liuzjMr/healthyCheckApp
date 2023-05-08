@@ -1,0 +1,23 @@
+{
+	"id": "sin-signature",
+	"name": "签名组件-兼容H5、小程序、APP",
+	"version": "1.0.0",
+	"description": "用于uni-app的签名组件，支持H5、小程序、APP，可导出svg矢量图片。",
+	"keywords": [
+		"签名,签字,svg,canvas"
+	],
+	"dependencies": {
+		"@escook/request-miniprogram": "^0.2.1",
+		"babel-polyfill": "^6.26.0",
+		"better-mock": "^0.3.6",
+		"dayjs": "^1.11.7",
+		"idcard": "^4.1.1",
+		"lodash": "^4.17.21",
+		"moment": "^2.29.4",
+		"uview-ui": "^2.0.36",
+		"vuex-persistedstate": "^4.1.0"
+	},
+	"devDependencies": {
+		"babel-preset-env": "^1.7.0"
+	}
+}
